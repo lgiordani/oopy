@@ -3,7 +3,7 @@ Deep Inside Object-oriented Python
 
 This repository contains code snippets used for my Object-Oriented Python presentations.
 
-Last update 20150329.
+Last update 20150406.
 
 The repository contains plain Python code (`code/` directory) and IPython Notebooks with the same content (`notebooks/` directory).
 
