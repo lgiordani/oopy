@@ -1,6 +1,6 @@
-## Object-oriented Python from scratch - Part 2 - Classes and members
+## Dive into Object-oriented Python - Part 2 - Classes and members
 
-### Slides 2-4
+### Slides 43-44
 
 class Door(object):
     def __init__(self, number, status):
@@ -21,7 +21,7 @@ hex(id(door1.__class__))
 hex(id(door2.__class__))
 
 
-### Slide 5
+### Slide 41
 
 class Door:
     colour = 'brown'
@@ -32,6 +32,8 @@ class Door:
         self.status = 'open'
     def close(self):
         self.status = 'closed'
+
+### Slides 47-51
 
 door1 = Door(1, 'closed')
 door2 = Door(2, 'closed')
@@ -51,7 +53,7 @@ hex(id(door1.colour))
 hex(id(door2.colour))
 
 
-### Slides 11-14
+### Slides 52-55
 
 door1 = Door(1, 'closed')
 door2 = Door(2, 'closed')
@@ -71,7 +73,7 @@ door1.__class__.__dict__['colour']
 door1.colour is Door.colour
 
 
-### Slides 16-19
+### Slides 57-60
 
 door1 = Door(1, 'closed')
 door1.colour = 'white'
@@ -87,7 +89,7 @@ door1.__dict__['colour']
 door1.__class__.__dict__['colour']
 
 
-### Slides 24-27
+### Slides 65-68
 
 door1 = Door(1, 'closed')
 Door.__dict__
@@ -101,7 +103,7 @@ print(Door.open)
 door1.open
 
 
-### Slides 29-36
+### Slides 70-76
 
 try:
     Door.open()
@@ -119,7 +121,7 @@ door1.__class__.__dict__['open'].__get__(door1)
 door1.__class__.__dict__['open'].__get__(door1, Door)
 
 
-### Slides 37-38
+### Slides 78-79
 
 class Door:
     colour = 'brown'

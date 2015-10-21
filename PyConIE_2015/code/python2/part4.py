@@ -1,6 +1,6 @@
-## Object-oriented Python from scratch - Part 4 - Polymorphism
+## Dive into Object-oriented Python - Part 4 - Polymorphism
 
-### Slides 2-5
+### Slides 129-134
 
 a = 5
 print(a)
@@ -15,7 +15,7 @@ print(type(a))
 print(hex(id(a)))
 
 
-### Slides 8-9
+### Slides 135-136
 
 def echo(a):
     return a
@@ -24,7 +24,7 @@ print(echo(5))
 print(echo('five'))
 
 
-### Slides 10-16
+### Slides 137-143
 
 print(5 + 6)
 print(5.5 + 6.6)
@@ -51,7 +51,7 @@ except TypeError as e:
     print(e)
 
 
-### Slides 17-18
+### Slides 144-145
 
 print(s.__len__())
 print(l.__len__())
@@ -63,7 +63,7 @@ except AttributeError as e:
     print(e)
 
 
-### Slides 19-22
+### Slides 146-149
 
 print([1,2,3].__add__([4,5,6]))
 
@@ -75,7 +75,7 @@ dir([1,2,3])
 [1,2,3].__contains__(6)
 
 
-### Slides 23-25
+### Slides 150-152
 
 def sum(a, b):
     return a + b
@@ -90,7 +90,7 @@ except TypeError as e:
     print(e)
 
 
-### Slides 30-36
+### Slides 157-163
 
 class Room:
     def __init__(self, door):

@@ -1,6 +1,6 @@
 ## Object-oriented Python from scratch - Part 1 - Objects and types
 
-### Slide 2
+### Slide 8
 
 data = (13, 63, 5, 378, 58, 40)
 
@@ -10,7 +10,7 @@ def avg(d):
 avg(data)
 
 
-### Slide 3
+### Slide 9
 
 door1 = [1, 'closed']
 door2 = [2, 'closed']
@@ -22,7 +22,7 @@ open_door(door1)
 door1
 
 
-### Slides 4-5
+### Slides 10-11
 
 door1 = [1, 'closed']
 door2 = [2, 'closed']
@@ -43,7 +43,7 @@ open_ldoor(ldoor1)
 ldoor1
 
 
-### Slide 11
+### Slide 17
 
 a = 6
 a
@@ -56,7 +56,7 @@ a
 print(a.__class__)
 
 
-### Slide 22
+### Slide 27
 
 class Door(object):
     def __init__(self, number, status):
@@ -68,7 +68,7 @@ class Door(object):
         self.status = 'closed'
 
 
-### Slides 27-31
+### Slides 33-37
 
 door1 = Door(1, 'closed')
 print(type(door1))

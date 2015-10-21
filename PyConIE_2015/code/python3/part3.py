@@ -1,6 +1,6 @@
-## Object-oriented Python from scratch - Part 3 - Delegation
+## Dive into Object-oriented Python - Part 3 - Delegation
 
-### Slides 10-12
+### Slides 92-94
 
 class Door:
     colour = 'brown'
@@ -28,7 +28,7 @@ SecurityDoor.colour is Door.colour
 sdoor.colour is Door.colour
 
 
-### Slides 14-17
+### Slides 96-99
 
 sdoor.__dict__
 sdoor.__class__.__dict__
@@ -40,7 +40,7 @@ sdoor.knock
 sdoor.__class__.__bases__[0].__dict__['knock'].__get__(sdoor)
 
 
-### Slides 18-19
+### Slides 100-101
 
 class SecurityDoor(Door):
     colour = 'grey'
@@ -52,7 +52,7 @@ class SecurityDoor(Door):
 SecurityDoor.__dict__
 
 
-### Slides 24-27
+### Slides 106-109
 
 class SecurityDoor(Door):
     colour = 'grey'
@@ -73,7 +73,7 @@ sdoor.open()
 sdoor.status
 
 
-### Slide 28
+### Slide 110
 
 class SecurityDoor(Door):
     colour = 'grey'
@@ -96,7 +96,7 @@ sdoor.open()
 sdoor.status
 
 
-### Slide 30-31
+### Slide 112-113
 
 class SecurityDoor:
     colour = 'grey'
@@ -117,7 +117,7 @@ except AttributeError as e:
     print(e)
 
 
-### Slide 32
+### Slide 114
 
 class SecurityDoor:
     colour = 'grey'
@@ -138,7 +138,7 @@ s = SecurityDoor(1, 'closed')
 s.status
 
 
-### Slide 33
+### Slide 115
 
 class SecurityDoor:
     colour = 'grey'
@@ -158,7 +158,7 @@ s = SecurityDoor(1, 'closed')
 s.status
 
 
-### Slide 34
+### Slide 116
 
 class SecurityDoor:
     colour = 'grey'
@@ -176,7 +176,7 @@ s = SecurityDoor(1, 'closed')
 s.status
 
 
-### Slide 35
+### Slide 117
 
 class ComposedDoor:
     def __init__(self, number, status):
@@ -185,7 +185,7 @@ class ComposedDoor:
         return getattr(self.door, attr)
 
 
-### Slides 41-45
+### Slides 123-127
 
 l = [1,2,3]
 dir(l)
