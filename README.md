@@ -1,12 +1,26 @@
-Deep Inside Object-oriented Python
+Dive Inside Object-oriented Python
 ======================
 
-This repository contains code snippets used for my Object-Oriented Python presentations.
+This repository contains code used during my Object-oriented Python workshop.
 
-Last update 20151021.
+You need [Jupyter](https://jupyter.org) to run the notebooks. To install it see the instructions [here](https://jupyter.org/install).
 
-The repository contains plain Python code (`code/` directory) and IPython Notebooks with the same content (`notebooks/` directory).
+For Linux and Mac systems you just have to create a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) and install the requirements
 
-Inside the `code/` directory you will find the `python3/` and `python2/` subdirectories which contain code that works with that version of Python. Each file contains just snippets of code meant to be copied and pasted inside the Python console.
+```
+pip install -r requirements
+```
 
-Jupyter notebooks are available for Python 3 only.
+If you are not following the workshop you can find a series of posts that discuss the same topics [on my blog](https://www.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-1-objects-and-types/)
+
+The workshop is divided into the following sections
+
+1. Intro and discussion about OOP
+2. Objects
+3. Classes
+4. Instances
+5. Delegation
+6. Polymorphism
+
+Each of the sections 2-6 has one companion notebook with exercises and one with the solutions. I highly recommed that you try to solve the exercises before looking at the solutions. No effort, no results! =)
+
