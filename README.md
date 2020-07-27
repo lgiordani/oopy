@@ -8,7 +8,7 @@ You need [Jupyter](https://jupyter.org) to run the notebooks. To install it see 
 For Linux and Mac systems you just have to create a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) and install the requirements
 
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 If you are not following the workshop you can find a series of posts that discuss the same topics [on my blog](https://www.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-1-objects-and-types/)
